@@ -1,0 +1,16 @@
+ALGORITHM algorithm_name
+VAR
+  c:CHAR
+  V,W,nb_char:INTEGER
+BEGIN
+ while(c<>".")do
+read(c)
+nb_char:=nb_char+1
+if(c=" ")
+w:=w+1
+end if 
+if (c in[a,e,i,y,o,A,E,I,Y,O])
+v=v+1
+end_if 
+end_while
+END.
